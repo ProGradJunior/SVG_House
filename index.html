@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SVG</title>
+</head>
+<body>
+    <div class="container">
+        <div class="house">
+            <svg width="90vw" height="90vh">
+                <polygon points="175,30 50,200 300,200" class="triangle" />
+                <rect width="250" height="150"  x="50" y="205" id="walls"/>
+                <rect width="50" height="75"  x="150" y="280" id="door"/>
+                <circle cx="175" cy="100" r="20" id="ventilation"/>
+            </svg>
+        </div>
+        <div class="moon">
+            <svg>
+                <circle cx="100" cy="50" r="20" stroke="black" stroke-width="2" fill="rgb(248, 246, 211)" />
+                <circle cx="105" cy="50" r="15" stroke="black" stroke-width="2" fill="rgb(66, 63, 63)" />
+                <circle cx="120" cy="50" r="11" stroke="rgb(66, 63, 63)" stroke-width="2" fill="rgb(66, 63, 63)" />
+            </svg>
+            <svg id="star1">
+                <polygon points="12.5,1 5,22 23,7.5 1,7.5 20,22" fill="yellow" id="star1"/>
+            </svg>
+            <svg id="star2">
+                <polygon points="12.5,1 5,22 23,7.5 1,7.5 20,22" fill="yellow" id="star1"/>
+            </svg>
+            <svg id="star3">
+                <polygon points="12.5,1 5,22 23,7.5 1,7.5 20,22" fill="yellow" id="star1"/>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

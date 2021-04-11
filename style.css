@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: rgb(66, 63, 63);
+    width: 500px;
+    height: 500px;
+    margin: 0px;
+}
+
+.house{
+    position: absolute;
+    top: 90px;
+    left: 40px
+}
+
+.triangle{
+    fill: rgb(252, 134, 65);
+    stroke: rgb(0,0,0);
+    stroke-width: 5;
+}
+
+#walls{
+    fill:rgb(250, 152, 242);
+    stroke-width:5;
+    stroke:rgb(0,0,0)
+}
+
+#door{
+    fill:rgb(253, 222, 164);
+    stroke-width:3;
+    stroke:rgb(0,0,0)
+}
+
+#ventilation{
+    stroke: rgb(0,0,0);
+    stroke-width: 3;
+    fill: rgb(253, 222, 164)
+}
+
+.moon{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+#star1{
+    position: absolute;
+    top: 10px;
+    left:20px
+}
+
+#star2{
+    position: absolute;
+    top: 2px;
+    left:180px
+}
+
+#star3{
+    position: absolute;
+    top: 50px;
+    left:320px
+}
